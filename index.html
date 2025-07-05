@@ -48,7 +48,16 @@
         <div class="hero-text">
           <h1>Sell Your Used Electronics for Cash</h1>
           <p>We buy mobiles, laptops, tablets, cameras,tabs,bikes,TVs and more at the best prices</p>
-          <a href="https://wa.me/917272989292?text=Hi%2C%20I%20want%20to%20sell%20my%20device" class="whatsapp-btn">Chat on WhatsApp</a>
+          
+<a href="https://wa.me/917272989292?text=Hi%2C%20I%20want%20to%20sell%20my%20device"
+   class="whatsapp-btn"
+   onclick="gtag('event', 'whatsapp_click', {
+     event_category: 'engagement',
+     event_label: 'WhatsApp Button',
+     value: 1
+   });">
+   Chat on WhatsApp
+</a>
         </div>
         <div class="hero-img-wrapper">
           <img src="assets/images/devices-hero.png" alt="Devices" class="hero-img" />
